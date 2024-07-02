@@ -1,0 +1,29 @@
+.card{
+    background-color:greenyellow;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card:hover{
+    padding: 20px;
+
+}
+.card:hover .content{
+    display: block;
+}
+.card:hover .img_content{
+    display: none;
+}
+.content{
+    display: none;
+}
+.card .img_content {
+    width: 100%;
+    height: 100%;
+}
+
+.card .img_content img{
+    width: 100%;
+    height: 100%;
+}

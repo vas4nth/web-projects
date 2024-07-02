@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="bg.jpg">
+</head>
+<body>
+    <div class="login">
+        <form id="loginform">
+            <h1>Login</h1>
+            <label>username</label>
+            <input id="username"   type="text">
+            <label>password</label>
+            <input  id="password"   type="password">
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <script>
+        document.getElementById("loginform").addEventListener("submit",function (e)
+        {
+            e.preventDefault()
+            var username=document.getElementById("username").value;
+            var password=document.getElementById("password").value;
+            console.log(username)
+            console.log(password)
+        })         
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
